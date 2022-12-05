@@ -122,7 +122,7 @@ Grupo.numIntegrantes = 5;
 Pantalla.dimensiones = "1920x1080";
 
 //25
-if (Led.encendido === true){
+if (Led.encendido){
     Led.encendido = false;
 } else {
     Led.encendido = true;
